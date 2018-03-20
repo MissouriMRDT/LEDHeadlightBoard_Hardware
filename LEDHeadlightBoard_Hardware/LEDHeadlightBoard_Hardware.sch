@@ -31,16 +31,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:MRDT-Actives
-LIBS:MRDT-Connectors
-LIBS:MRDT-Devices
-LIBS:MRDT-Drill_Holes
-LIBS:MRDT-Headers
-LIBS:MRDT-ICs
-LIBS:MRDT-Passives
-LIBS:MRDT-Shields
-LIBS:MRDT-Silkscreens
-LIBS:MRDT-Switches
+LIBS:MRDT_Actives
+LIBS:MRDT_Connectors
+LIBS:MRDT_Devices
+LIBS:MRDT_Drill_Holes
+LIBS:MRDT_Headers
+LIBS:MRDT_ICs
+LIBS:MRDT_Passives
+LIBS:MRDT_Shields
+LIBS:MRDT_Silkscreens
+LIBS:MRDT_Switches
 LIBS:LEDHeadlightBoard_Hardware-cache
 EELAYER 25 0
 EELAYER END
@@ -118,7 +118,7 @@ U 1 1 5AAC4F55
 P 1150 1200
 F 0 "J1" H 1250 1350 60  0000 C CNN
 F 1 "Solder_Pad" H 1150 1500 60  0000 C CNN
-F 2 "MRDT-Connectors:Solder_Pad_6mmX4mm" H 1150 1200 60  0001 C CNN
+F 2 "MRDT-Connectors:Solder_Pad_5mmX3mm" H 1150 1200 60  0001 C CNN
 F 3 "" H 1150 1200 60  0001 C CNN
 	1    1150 1200
 	1    0    0    -1  
@@ -129,7 +129,7 @@ U 1 1 5AAC4FA0
 P 3200 1650
 F 0 "J2" H 3100 1800 60  0000 C CNN
 F 1 "Solder_Pad" H 3200 1950 60  0000 C CNN
-F 2 "MRDT-Connectors:Solder_Pad_6mmX4mm" H 3200 1650 60  0001 C CNN
+F 2 "MRDT-Connectors:Solder_Pad_5mmX3mm" H 3200 1650 60  0001 C CNN
 F 3 "" H 3200 1650 60  0001 C CNN
 	1    3200 1650
 	-1   0    0    1   
@@ -138,4 +138,15 @@ Text Label 3050 1400 0    60   ~ 0
 GND
 Text Label 1200 1400 0    60   ~ 0
 VDD
+$Comp
+L Logo_or_Signature S1
+U 1 1 5AB0B18A
+P 4550 1000
+F 0 "S1" H 4600 950 60  0000 C CNN
+F 1 "Logo_or_Signature" H 5000 1050 60  0000 C CNN
+F 2 "MRDT_Silkscreens:MRDT_Logo_10mm" H 4550 1000 60  0001 C CNN
+F 3 "" H 4550 1000 60  0001 C CNN
+	1    4550 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

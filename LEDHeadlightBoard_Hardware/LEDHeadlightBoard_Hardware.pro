@@ -1,4 +1,4 @@
-update=3/16/2018 5:46:21 PM
+update=3/20/2018 1:58:19 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,13 @@ LibName39=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Lib
 LibName40=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Libraries-Hardware/Device/MRDT-Shields
 LibName41=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Libraries-Hardware/Device/MRDT-Silkscreens
 LibName42=C:/Users/Jacob Lipina/Documents/1.) Mars Rover/2017-18 Atlas/KiCad-Libraries-Hardware/Device/MRDT-Switches
+LibName43=C:/KiCad-Libraries-Hardware/Device/MRDT_Actives
+LibName44=C:/KiCad-Libraries-Hardware/Device/MRDT_Connectors
+LibName45=C:/KiCad-Libraries-Hardware/Device/MRDT_Devices
+LibName46=C:/KiCad-Libraries-Hardware/Device/MRDT_Drill_Holes
+LibName47=C:/KiCad-Libraries-Hardware/Device/MRDT_Headers
+LibName48=C:/KiCad-Libraries-Hardware/Device/MRDT_ICs
+LibName49=C:/KiCad-Libraries-Hardware/Device/MRDT_Passives
+LibName50=C:/KiCad-Libraries-Hardware/Device/MRDT_Shields
+LibName51=C:/KiCad-Libraries-Hardware/Device/MRDT_Silkscreens
+LibName52=C:/KiCad-Libraries-Hardware/Device/MRDT_Switches
